@@ -1,7 +1,7 @@
 baseurl = "https://mapping-money.com/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Mappin Money"
+title = "MappinMoney"
 theme = "reveal-hugo"
 
 # RSS, categories and tags disabled for an easy start
