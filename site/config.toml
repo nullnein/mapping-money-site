@@ -1,10 +1,19 @@
-baseurl = "https://mapping-money.com/"
+baseURL = "https://mapping-money.com/"
 languageCode = "en-us"
-languageLang = "en"
-title = "MappinMoney"
+title = "Mapping Money"
 theme = "reveal-hugo"
 
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+[markup.goldmark.renderer]
+unsafe = true
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
+
+[params.logo]
+src = "/img/logo.png"
+
+[params.reveal_hugo]
+custom_theme = "reveal-hugo/themes/robot-lung.css"
+
